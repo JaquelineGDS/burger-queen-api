@@ -7,7 +7,7 @@ const db = require('./models/index');
 app.listen(4567, console.log("servidor rodando"));
 
 app.get('/', (req, resp) => {
-  resp.send( res.json(
+  resp.send( resp.json(
     {
       "name": "bq-node",
       "version": "1.0.0"
